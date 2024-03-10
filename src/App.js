@@ -15,7 +15,7 @@ function App() {
           
         <div class="flex-1">
               
-            <Navsection></Navsection>
+            {/* <Navsection></Navsection> */}
             
             <Mainsection></Mainsection>
         </div>
