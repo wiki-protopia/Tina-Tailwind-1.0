@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navsection = () => {
     return (
-        <header class="bg-white shadow py-4 px-6">
+        <header class="bg-[#111317] text-[#FFFFFF] shadow py-4 px-6">
             <div class="flex justify-between items-center">
                 <button class="text-gray-600 focus:outline-none">
                     <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -7,7 +7,7 @@ import Mainsection from './sections/mainsection';
 
 function App() {
   return (
-    <div class="bg-gray-100">
+    <div class="bg-[#111317]">
 
       <div class="flex h-screen">
 
@@ -15,7 +15,7 @@ function App() {
           
         <div class="flex-1">
               
-            {/* <Navsection></Navsection> */}
+            <Navsection></Navsection>
             
             <Mainsection></Mainsection>
         </div>
