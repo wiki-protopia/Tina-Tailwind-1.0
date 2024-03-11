@@ -58,16 +58,16 @@ const Sidesection = () => {
         ))}
 
         <div class="absolute inset-x-0 bottom-0">
-          {mockdata.sidesection.sideicondata.map((item) => (
+          {mockdata.sidesection.sideicondata.map((icon) => (
             <button
-                key="item.id"
+                key={icon.id}
               type="button"
-              class={`w-[40px] h-[40px] rounded-[15px] border-opacity-30 border-[1px] border-solid border-[#FFFFFF] ${item.id !== 4 ? 'mr-[5px]' : ''}`}
+              class={`w-[40px] h-[40px] rounded-[15px] border-opacity-30 border-[1px] border-solid border-[#FFFFFF] ${icon.id !== 4 ? 'mr-[5px]' : ''}`}
             >
                 <object
                     type="image/svg+xml"
                     class="w-[24px] h-[24px] ml-[8px]"
-                    data={item.svgsrc}
+                    data={icon.svgsrc}
                 ></object>
                 
             </button>

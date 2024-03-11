@@ -9,7 +9,7 @@ function App() {
   return (
     <div class="bg-[#111317]">
 
-      <div class="flex h-screen">
+      <div class="flex">
 
         <Sidesection></Sidesection>
           
