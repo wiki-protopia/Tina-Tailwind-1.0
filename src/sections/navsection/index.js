@@ -2,8 +2,8 @@ import React from "react";
 
 const Navsection = () => {
   return (
-    <header class="bg-[#111317] text-[#FFFFFF] shadow">
-      <div class="flex justify-between items-center font-[Poppins] mt-[50px] mr-[50px] ml-[50px]">
+    <header class="bg-[#111317] shadow">
+      <div class="flex justify-between items-center font-[Poppins] mr-[50px]">
         <form class="max-w-md w-[400px] h-[46px] object-left-top">
           <label
             for="default-search"

@@ -13,7 +13,7 @@ function App() {
 
         <Sidesection></Sidesection>
           
-        <div class="flex-1">
+        <div class="flex-1 mt-[50px] ml-[75px] text-[#FFFFFF]">
               
             <Navsection></Navsection>
             

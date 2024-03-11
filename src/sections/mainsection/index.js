@@ -1,12 +1,13 @@
-import React from 'react'
+import React from "react";
+
+import Section1 from 'sections/mainsection/Section1'
 
 const Mainsection = () => {
-    return (
-        <div class="p-6">
-            <h1 class="text-2xl font-semibold mb-4">Dashboard</h1>
-            <p>Your dashboard content goes here.</p>
-        </div>
-    )
-}
+  return (
+    <div class="mt-[45px]">
+      <Section1></Section1>
+    </div>
+  );
+};
 
-export default Mainsection
+export default Mainsection;
