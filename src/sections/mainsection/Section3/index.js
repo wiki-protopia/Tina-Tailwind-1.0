@@ -11,7 +11,7 @@ import copper_img from "images/copper_test.png"
 
 const Section3 = () => {
   return (
-    <div class="mt-[80px] font-[Poppins]">
+    <div class="mt-[80px] font-[Poppins] overflow-hidden">
       <p class="text-[52px] font-semibold tracking-normal text-left">
         Partners
       </p>

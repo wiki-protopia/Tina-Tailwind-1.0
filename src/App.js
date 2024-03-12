@@ -17,7 +17,7 @@ function App() {
               
             <Navsection></Navsection>
             
-            <Mainsection></Mainsection>
+            {/* <Mainsection></Mainsection> */}
         </div>
       </div>
     </div>

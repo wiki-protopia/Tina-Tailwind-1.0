@@ -5,7 +5,7 @@ import { mockdata } from "data";
 
 const Section1 = () => {
   return (
-    <div>
+    <div class="overflow-hidden">
       <div>
         <div class="flex">
           <p class="text-[18px] font-semibold tracking-normal text-left">

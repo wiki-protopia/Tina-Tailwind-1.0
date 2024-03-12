@@ -7,7 +7,7 @@ import { mockdata } from "data";
 
 const Sidesection = () => {
   return (
-    <div class="text-[#FFFFFF] font-[Poppins] w-[185px] h-[854px] mt-[55px] ml-[25px] pl-[10px] pr-[0px,] py-[0px,] [box-shadow:0px_4px_4px_0px_#00000040]">
+    <div class="text-[#FFFFFF] font-[Poppins] w-[185px] h-[854px] mt-[55px] ml-[25px] pl-[10px] pr-[0px,] py-[0px,] [box-shadow:0px_4px_4px_0px_#00000040] hidden lg:block">
       <div class="flex w-[165px] h-[48px] ml-[10px]">
         <img class="w-[40px] h-[27px]" src={tinaImage}></img>
         <div class="ml-[9px] -mt-[8px]">

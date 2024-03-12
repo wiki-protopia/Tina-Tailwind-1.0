@@ -6,7 +6,7 @@ import Flowcard from "Components/Flowcard";
 
 const Section2 = () => {
   return (
-    <div class="mt-[80px]">
+    <div class="mt-[80px] overflow-hidden">
       <div class="flex">
         <p class="text-[52px]  font-bold tracking-normal text-left bg-gradient-to-r from-[#715DEC] to-[#521BBA] text-transparent bg-clip-text">
           The Launchpad
