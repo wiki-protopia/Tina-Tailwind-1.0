@@ -1,8 +1,10 @@
 import React from "react";
 
-import { mockdata } from "data";
+import { mockdata } from "data"
 import tokero_icon from "images/tokero_icon.svg"
-
+import rikkei_icon from "images/rikkei_icon.svg"
+import tokero_img from "images/tokero_test.png"
+import rekkei_img from "images/rikkei_test.png"
 
 const Section3 = () => {
   return (
@@ -14,16 +16,29 @@ const Section3 = () => {
         Tinapad is honored and thrilled to be backed by leading Venture Capitals
         in blockchain industry.
       </p>
-      {/* <div class="flex mt-[50px] mb-[55px]">
-        {mockdata.mainsection.partnerdata.map((item) => (
+      <div class="flex mt-[50px] mb-[55px]">
+        {/* {mockdata.mainsection.partnerdata.map((item) => (
           <object
             type="image/svg+xml"
-            class="mr-[10%]"
+            class="mr-[5px]"
             data={item.imgsrc}
             key={item.id}
           ></object>
-        ))}
-      </div> */}
+        ))} */}
+        {/* <object
+          type="image/svg+xml"
+          class="mr-[5px]"
+          data={tokero_icon}
+        ></object>
+        <object
+          type="image/svg+xml"
+          class="mr-[5px]"
+          data={rikkei_icon}
+        ></object> */}
+        <img src={tokero_img}></img>
+        <img src={rekkei_img}></img>
+        
+      </div>
     </div>
   );
 };

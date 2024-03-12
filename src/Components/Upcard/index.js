@@ -14,10 +14,10 @@ const Upcard = ({ item }) => {
           {item.description}
         </p>
         {item.submenu.map((sub) => (
-          <div class="absolute flex bottom-0 left-0]" key={sub.id}>
+          // <div class="absolute flex bottom-0 left-0 mb-[25px]" key={sub.id}>
+          //   <p class={`text-[14px] tracking-normal text-left text-[${sub.color}] mt-[2px]`}>
+          <div class={`absolute flex bottom-0 left-0 mb-[${25*(sub.id-1)}px]`} key={sub.id}>
             <p class={`text-[14px] tracking-normal text-left text-[${sub.color}] mt-[2px]`}>
-          {/* <div class={`absolute flex bottom-0 left-0 mb-[${25*(sub.id-1)}px]`} key={sub.id}>
-            <p class={`text-[14px] tracking-normal text-left text-[${sub.color}] mt-[2px]`}> */}
               {sub.title}
             </p>
             <svg

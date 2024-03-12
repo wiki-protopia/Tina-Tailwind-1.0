@@ -254,22 +254,22 @@ export const mockdata = {
                 id: 1,
                 imgsrc: tokero_icon,
             },
-            {
-                id: 2,
-                imgsrc: rikkei_icon,
-            },
-            {
-                id: 3,
-                imgsrc: elrond_icon,
-            },
-            {
-                id: 4,
-                imgsrc: codevix,
-            },
-            {
-                id: 5,
-                imgsrc: copper,
-            },
+            // {
+            //     id: 2,
+            //     imgsrc: rikkei_icon,
+            // },
+            // {
+            //     id: 3,
+            //     imgsrc: elrond_icon,
+            // },
+            // {
+            //     id: 4,
+            //     imgsrc: codevix,
+            // },
+            // {
+            //     id: 5,
+            //     imgsrc: copper,
+            // },
         ],
     },
 }
