@@ -40,8 +40,10 @@ const Section2 = () => {
             Tinapad Helps everyone to create their own tokens and token sales in few seconds. Tokens Created on Pinksale will be varified and published on explorer websties.
         </p>
       </div>
-      <div class="mt-[20px] relative">
-        <Upcard></Upcard>
+      <div class="mt-[20px] flex">
+        {mockdata.mainsection.upcarddata.map( item => (
+            <Upcard key={item.id} item = {item}></Upcard>
+        ))}
       </div>
     </div>
   );

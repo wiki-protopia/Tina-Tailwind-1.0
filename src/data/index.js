@@ -21,6 +21,10 @@ import game_back from 'images/game_back.svg'
 import game_main from 'images/game_main.svg'
 import chain_back from 'images/chain_back.svg'
 import chain_main from 'images/chain_main.svg'
+import presales_back from "images/presales_back.svg"
+import stacking_back from "images/stacking_back.svg"
+import token_back from "images/token_back.svg"
+import airdrop_back from "images/airdrop_back.svg"
 
 export const mockdata = {
     sidesection: {
@@ -132,6 +136,70 @@ export const mockdata = {
                 title: "PinkChain",
                 description: "Blockchain Network",
                 amount: "X100",
+            },
+        ],
+        upcarddata: [
+            {
+                id: 1,
+                backsrc: presales_back,
+                title: "Presales",
+                description: "Browse The Best Upcoming Projects",
+                submenu: [
+                    {
+                        id: 1,
+                        color: "#F20CEC",
+                        title: "Create Presales",
+                    },
+                    {
+                        id: 2,
+                        color: "#F20CEC",
+                        title: "Browse Presale",
+                    },
+                ],
+            },
+            {
+                id: 2,
+                backsrc: stacking_back,
+                title: "Staking",
+                description: "Stake $TINA",
+                submenu: [
+                    {
+                        id: 1,
+                        color: "#E2815D",
+                        title: "Stake TINA",
+                    },
+                    {
+                        id: 2,
+                        color: "#E2815D",
+                        title: "Browse Presale",
+                    },
+                ],
+            },
+            {
+                id: 3,
+                backsrc: token_back,
+                title: "Tokens",
+                description: "Create your own Token with FREE Audit inlcuded",
+                submenu: [
+                    {
+                        id: 1,
+                        color: "#89B68E",
+                        title: "Browse Presale",
+                    },
+                ],
+            },
+            {
+                id: 4,
+                backsrc: airdrop_back,
+                title: "Airdropt",
+                description: "free tool for airdrops",
+                submenu: [
+                    {
+                        id: 1,
+                        color: "#0C7FEA",
+                        title: "Airdropt",
+                    },
+                ],
             },
         ],
     },
