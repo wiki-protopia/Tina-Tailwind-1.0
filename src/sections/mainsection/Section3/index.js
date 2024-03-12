@@ -14,16 +14,16 @@ const Section3 = () => {
         Tinapad is honored and thrilled to be backed by leading Venture Capitals
         in blockchain industry.
       </p>
-      <div class="flex mt-[50px] mb-[55px]">
+      {/* <div class="flex mt-[50px] mb-[55px]">
         {mockdata.mainsection.partnerdata.map((item) => (
           <object
             type="image/svg+xml"
             class="mr-[10%]"
             data={item.imgsrc}
-            id={item.id}
+            key={item.id}
           ></object>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
