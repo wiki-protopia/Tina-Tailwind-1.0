@@ -11,7 +11,7 @@ const Section1 = () => {
           <p class="text-[18px] font-semibold tracking-normal text-left">
             Launchpad Record
           </p>
-          <div class="flex ml-auto mr-[50px]">
+          <div class="flex ml-auto">
             <p class="text-[14px] font-normal tracking-normal text-right ">
               View All
             </p>
