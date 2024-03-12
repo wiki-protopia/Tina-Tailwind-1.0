@@ -7,7 +7,7 @@ const Upcard = ({ item }) => {
       style={{ backgroundImage: `url(${item.backsrc})` }}
     >
       <div class="absolute ml-[7%] mt-[3%] w-[70%] h-[85%]">
-        <p class="text-[18px] tracking-normal text-left font-[Inter]">
+        <p class="text-[18px] tracking-normal text-left font-[Inter] font-semibold">
           {item.title}
         </p>
         <p class="text-[14px] tracking-normal text-left opacity-80 font-[Inter]">

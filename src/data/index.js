@@ -25,6 +25,19 @@ import presales_back from "images/presales_back.svg"
 import stacking_back from "images/stacking_back.svg"
 import token_back from "images/token_back.svg"
 import airdrop_back from "images/airdrop_back.svg"
+import flowcard_back from "images/flowcard_back.svg"
+import flowcard_icon from "images/flowcard_icon.svg"
+import generated_back from "images/generated_back.svg"
+import generated_icon from "images/generated_icon.svg"
+import unique_back from "images/unique_back.svg"
+import unique_icon from "images/unique_icon.svg"
+import funds_back from "images/funds_back.svg"
+import funds_icon from "images/funds_icon.svg"
+import tokero_icon from "images/tokero_icon.svg"
+import rikkei_icon from "images/rikkei_icon.svg"
+import elrond_icon from "images/elrond_icon.svg"
+import codevix from "images/codevix_icon.svg"
+import copper from "images/copper_icon.svg"
 
 export const mockdata = {
     sidesection: {
@@ -200,6 +213,62 @@ export const mockdata = {
                         title: "Airdropt",
                     },
                 ],
+            },
+        ],
+        flowcarddata: [
+            {
+                id: 1,
+                backsrc: flowcard_back,
+                iconsrc: flowcard_icon,
+                title: "Total Project",
+                amount: "491",
+                result: "+20%",
+            },
+            {
+                id: 2,
+                backsrc: generated_back,
+                iconsrc: generated_icon,
+                title: "Total Generated Tokens",
+                amount: "45",
+                result: "+10%",
+            },
+            {
+                id: 3,
+                backsrc: unique_back,
+                iconsrc: unique_icon,
+                title: "Total Unique Users",
+                amount: "22,911",
+                result: "+20%",
+            },
+            {
+                id: 4,
+                backsrc: funds_back,
+                iconsrc: funds_icon,
+                title: "Total Funds Raised",
+                amount: "$18,429,936",
+                result: "+40%",
+            },
+        ],
+        partnerdata: [
+            {
+                id: 1,
+                imgsrc: tokero_icon,
+            },
+            {
+                id: 2,
+                imgsrc: rikkei_icon,
+            },
+            {
+                id: 3,
+                imgsrc: elrond_icon,
+            },
+            {
+                id: 4,
+                imgsrc: codevix,
+            },
+            {
+                id: 5,
+                imgsrc: copper,
             },
         ],
     },

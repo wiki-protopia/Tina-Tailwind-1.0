@@ -2,6 +2,7 @@ import React from "react";
 
 import { mockdata } from "data";
 import Upcard from "Components/Upcard";
+import Flowcard from "Components/Flowcard";
 
 const Section2 = () => {
   return (
@@ -43,6 +44,11 @@ const Section2 = () => {
       <div class="mt-[20px] flex">
         {mockdata.mainsection.upcarddata.map( item => (
             <Upcard key={item.id} item = {item}></Upcard>
+        ))}
+      </div>
+      <div class="mt-[50px] flex">
+        {mockdata.mainsection.flowcarddata.map( item => (
+            <Flowcard key={item.id} item = {item}></Flowcard>
         ))}
       </div>
     </div>
