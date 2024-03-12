@@ -5,6 +5,9 @@ import tokero_icon from "images/tokero_icon.svg"
 import rikkei_icon from "images/rikkei_icon.svg"
 import tokero_img from "images/tokero_test.png"
 import rekkei_img from "images/rikkei_test.png"
+import elrond_img from "images/elrond_test.png"
+import codevix_img from "images/codevix_test.png"
+import copper_img from "images/copper_test.png"
 
 const Section3 = () => {
   return (
@@ -35,8 +38,11 @@ const Section3 = () => {
           class="mr-[5px]"
           data={rikkei_icon}
         ></object> */}
-        <img src={tokero_img}></img>
-        <img src={rekkei_img}></img>
+        <img class="w-[121px] h-[33px] mr-[15%]" src={tokero_img}></img>
+        <img class="w-[129px] h-[53px] mr-[15%]" src={rekkei_img}></img>
+        <img class="w-[121px] h-[36px] mr-[15%]" src={elrond_img}></img>
+        <img class="w-[118px] h-[22px] mr-[15%]" src={codevix_img}></img>
+        <img class="w-[128px] h-[36px]" src={copper_img}></img>
         
       </div>
     </div>
