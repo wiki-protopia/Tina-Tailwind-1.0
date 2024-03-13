@@ -57,7 +57,7 @@ const Sidesection = () => {
           <Sideitem key={item.id} item={item} />
         ))}
 
-        <div class="absolute inset-x-0 bottom-0">
+        <div class="fixed bottom-0 mb-[35px]">
           {mockdata.sidesection.sideicondata.map((icon) => (
             <button
                 key={icon.id}
