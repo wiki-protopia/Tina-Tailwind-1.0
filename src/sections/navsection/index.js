@@ -1,9 +1,13 @@
 import React from "react";
 
+import { useMediaQuery } from "react-responsive";
+
 const Navsection = () => {
+  const ismaxlg = useMediaQuery({ query: '(min-width: 1224px)' })
+
   return (
     <header class="bg-[#111317] shadow">
-      <div class="flex justify-between items-center font-[Poppins] mr-[50px]">
+      <div class="overflow-hidden w-[100%] flex justify-between items-center font-[Poppins] lg:mr-[50px]">
         <form class="max-w-md w-[400px] h-[46px] object-left-top">
           <label
             htmlFor="default-search"
@@ -37,7 +41,7 @@ const Navsection = () => {
         </form>
 
         <div class="flex object-right-top">
-            <button class="flex w-[120px] h-[46px] rounded-[25px] bg-opacity-15 bg-[#F20CEC]">
+            <button class="w-[120px] h-[46px] rounded-[25px] bg-opacity-15 bg-[#F20CEC] hidden lg:flex">
             <svg
                 width="32"
                 height="32"
@@ -59,7 +63,7 @@ const Navsection = () => {
             </p>
             </button>
 
-            <button class="flex w-[194px] h-[46px] rounded-[25px] bg-opacity-15 bg-[#F20CEC] ml-[20px]">
+            <button class="flex h-[46px] rounded-[25px] bg-opacity-15 bg-[#F20CEC] lg:ml-[20px]">
             <svg
                 width="32"
                 height="32"
@@ -76,9 +80,8 @@ const Navsection = () => {
                 fill="white"
                 />
             </svg>
-            <p class="text-[12px] font-medium leading-[18px] tracking-normal text-center ml-[7px] mt-[14px]">
-                Ethereum Chain
-            </p>
+            {ismaxlg && <p class="text-[12px] font-medium leading-[18px] tracking-normal text-center ml-[7px] mt-[14px]">Ethereum Chain</p>}
+            {!ismaxlg && <p class="text-[12px] font-medium leading-[18px] tracking-normal text-center ml-[7px] mt-[14px]">ETH</p>}
             <svg
                 width="24"
                 height="24"
@@ -96,7 +99,7 @@ const Navsection = () => {
             </svg>
             </button>
 
-            <button class="flex w-[147px] h-[46px] rounded-[25px] bg-opacity-15 bg-[#F20CEC] ml-[20px]">
+            <button class="flex h-[46px] rounded-[25px] bg-opacity-15 bg-[#F20CEC] mr-[15px] lg:ml-[20px]">
             <svg
                 width="32"
                 height="32"
@@ -113,9 +116,8 @@ const Navsection = () => {
                 fill="white"
                 />
             </svg>
-            <p class="text-[12px] font-medium leading-[18px] tracking-normal text-center ml-[7px] mt-[14px]">
-                Connect Wallet
-            </p>
+            {ismaxlg && <p class="text-[12px] font-medium leading-[18px] tracking-normal text-center ml-[7px] mt-[14px]">Connect Wallet</p>}
+            {!ismaxlg && <p class="text-[12px] font-medium leading-[18px] tracking-normal text-center ml-[7px] mt-[14px]">Connect</p>}
             </button>
         </div>
 

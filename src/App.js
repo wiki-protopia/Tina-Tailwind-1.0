@@ -9,11 +9,11 @@ function App() {
   return (
     <div class="bg-[#111317]">
 
-      <div class="flex">
+      <div class="flex container w-full relative">
 
         <Sidesection></Sidesection>
           
-        <div class="flex-1 mt-[50px] ml-[75px] text-[#FFFFFF]">
+        <div class="flex-1 lg:mt-[50px] lg:ml-[75px] text-[#FFFFFF] overflow-hidden ml-[5%] w-[90%]">
               
             <Navsection></Navsection>
             
