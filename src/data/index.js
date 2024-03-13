@@ -38,6 +38,11 @@ import rikkei_icon from "images/rikkei_icon.svg"
 import elrond_icon from "images/elrond_icon.svg"
 import codevix from "images/codevix_icon.svg"
 import copper from "images/copper_icon.svg"
+import tokero_img from "images/tokero_test.png"
+import rekkei_img from "images/rikkei_test.png"
+import elrond_img from "images/elrond_test.png"
+import codevix_img from "images/codevix_test.png"
+import copper_img from "images/copper_test.png"
 
 export const mockdata = {
     sidesection: {
@@ -252,24 +257,24 @@ export const mockdata = {
         partnerdata: [
             {
                 id: 1,
-                imgsrc: tokero_icon,
+                imgsrc: tokero_img,
             },
-            // {
-            //     id: 2,
-            //     imgsrc: rikkei_icon,
-            // },
-            // {
-            //     id: 3,
-            //     imgsrc: elrond_icon,
-            // },
-            // {
-            //     id: 4,
-            //     imgsrc: codevix,
-            // },
-            // {
-            //     id: 5,
-            //     imgsrc: copper,
-            // },
+            {
+                id: 2,
+                imgsrc: rekkei_img,
+            },
+            {
+                id: 3,
+                imgsrc: elrond_img,
+            },
+            {
+                id: 4,
+                imgsrc: codevix_img,
+            },
+            {
+                id: 5,
+                imgsrc: copper_img,
+            },
         ],
     },
 }

@@ -15,19 +15,14 @@ const Section3 = () => {
       <p class="text-[52px] font-semibold tracking-normal text-left">
         Partners
       </p>
-      <p class="text-[18px] font-normal tracking-normal text-left w-[30%]">
+      <p class="text-[18px] font-normal tracking-normal text-left lg:w-[30%]">
         Tinapad is honored and thrilled to be backed by leading Venture Capitals
         in blockchain industry.
       </p>
-      <div class="flex mt-[50px] mb-[55px]">
-        {/* {mockdata.mainsection.partnerdata.map((item) => (
-          <object
-            type="image/svg+xml"
-            class="mr-[5px]"
-            data={item.imgsrc}
-            key={item.id}
-          ></object>
-        ))} */}
+      <div class="lg:flex mt-[50px] mb-[55px] grid grid-cols-2 gap-x-4 gap-y-4">
+        {mockdata.mainsection.partnerdata.map((item) => (
+          <img key={item.id} class="w-[121px] h-[33px] mr-[10%]" src={item.imgsrc}></img>
+        ))}
         {/* <object
           type="image/svg+xml"
           class="mr-[5px]"
@@ -38,11 +33,11 @@ const Section3 = () => {
           class="mr-[5px]"
           data={rikkei_icon}
         ></object> */}
-        <img class="w-[121px] h-[33px] mr-[15%]" src={tokero_img}></img>
-        <img class="w-[129px] h-[53px] mr-[15%]" src={rekkei_img}></img>
-        <img class="w-[121px] h-[36px] mr-[15%]" src={elrond_img}></img>
-        <img class="w-[118px] h-[22px] mr-[15%]" src={codevix_img}></img>
-        <img class="w-[128px] h-[36px]" src={copper_img}></img>
+        {/* <img class="w-[121px] h-[33px] mr-[10%]" src={tokero_img}></img>
+        <img class="w-[129px] h-[53px] mr-[10%]" src={rekkei_img}></img>
+        <img class="w-[121px] h-[36px] mr-[10%]" src={elrond_img}></img>
+        <img class="w-[118px] h-[22px] mr-[10%]" src={codevix_img}></img>
+        <img class="w-[128px] h-[36px]" src={copper_img}></img> */}
         
       </div>
     </div>

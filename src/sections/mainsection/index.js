@@ -9,7 +9,7 @@ const Mainsection = () => {
     <div class="mt-[45px] lg:mr-[50px] mr-[5px]">
       <Section1></Section1>
       <Section2></Section2>
-      {/* <Section3></Section3> */}
+      <Section3></Section3>
     </div>
   );
 };
