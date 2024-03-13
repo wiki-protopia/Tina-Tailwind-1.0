@@ -3,7 +3,7 @@ import React from "react";
 const Upcard = ({ item }) => {
   return (
     <div
-      class="relative w-[265px] h-[177px] rounded-[10px] font-[Poppins] mr-[1%]"
+      class="relative w-[95%] h-[177px] rounded-[10px] font-[Poppins] lg:mr-[1%] bg-cover bg-center mb-[5%]"
       style={{ backgroundImage: `url(${item.backsrc})` }}
     >
       <div class="absolute ml-[7%] mt-[3%] w-[70%] h-[85%]">
